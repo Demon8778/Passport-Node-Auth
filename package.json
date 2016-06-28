@@ -1,0 +1,33 @@
+{
+  "name": "Passport-Node-Authentication",
+  "version": "1.0.0",
+  "description": "Example of using passportJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "ejs": "~0.8.5",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "express": "~4.0.0",
+    "generate-password": "^1.1.1",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "~3.8.1",
+    "morgan": "~1.0.0",
+    "nodemailer": "0.7.1",
+    "q": "^1.4.1",
+    "passport" : "~0.1.17",         
+    "passport-local" : "~0.1.6",    
+    "passport-facebook" : "~1.0.2", 
+    "passport-twitter" : "~1.0.2",  
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",
+    "express-session": "~1.0.0"
+  }
+}
